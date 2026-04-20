@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily News - Spam-Ordner voll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1,
+      h2,
+      .font-serif {
+        font-family: "Playfair Display", serif;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .article-content {
+        font-family: "Lora", serif;
+        font-size: 1.25rem;
+        line-height: 1.8;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <nav
+      class="border-b border-gray-200 py-4 px-6 bg-white sticky top-0 z-50 flex justify-between items-center"
+    >
+      <a href="index.html" class="text-2xl font-black italic tracking-tighter"
+        >Daily News</a
+      >
+      <p
+        id="date"
+        class="text-xs font-bold uppercase tracking-widest text-gray-500"
+      ></p>
+    </nav>
+
+    <div
+      class="sticky top-[65px] h-1 bg-red-600 w-0 z-50"
+      id="progress-bar"
+    ></div>
+
+    <article class="py-10">
+      <header class="max-w-4xl mx-auto px-4 text-center mb-12">
+        <span class="text-red-600 font-bold uppercase text-xs tracking-widest"
+          >Satire / Chronik</span
+        >
+        <h1 class="text-4xl md:text-6xl font-black mt-4 mb-6 leading-tight">
+          Spam-Ordner voll: Polizei bittet, Bombendrohungen und
+          Erpresserschreiben künftig per Einschreiben zu schicken
+        </h1>
+        <div
+          class="flex items-center justify-center space-x-2 text-sm font-bold border-t border-b border-gray-100 py-4 uppercase"
+        >
+          <span>Von Redaktion</span>
+          <span class="text-gray-300">•</span>
+          <span class="text-gray-500">2 Minuten Lesezeit</span>
+        </div>
+      </header>
+
+      <figure class="max-w-6xl mx-auto mb-12 px-4">
+        <img
+          src="/img.png"
+          alt="Briefkasten, in den ein Brief eingeworfen wird"
+          class="w-full h-[500px] object-cover rounded-sm"
+        />
+        <figcaption class="text-sm text-gray-500 mt-3 italic">
+          Sicher ist sicher: Damit das Bekennerschreiben nicht im Spam-Ordner
+          landet, setzen gewissenhafte Kriminelle wieder auf den klassischen
+          Postweg. (Foto: KI-generiert)
+        </figcaption>
+      </figure>
+
+      <div class="max-w-2xl mx-auto px-6 article-content text-gray-800">
+        <p class="mb-8 font-bold">
+          <span class="text-6xl font-bold float-left mr-3 mt-2 leading-none"
+            >W</span
+          >IEN / INNSBRUCK – Die fortschreitende Digitalisierung bringt die
+          österreichischen Sicherheitsbehörden an ihre Grenzen. Weil in letzter
+          Zeit immer mehr hochbrisante Drohmails ungeöffnet im Spam-Ordner
+          vergammeln, zieht das Innenministerium nun die Reißleine: Kriminelle,
+          Terroristen und Erpresser werden ab sofort höflich ersucht, ihre
+          Drohungen wieder auf dem klassischen Postweg – idealerweise als
+          eingeschriebenen Brief mit Rückschein – zu übermitteln.
+        </p>
+
+        <p class="mb-8">
+          „Es ist für alle Beteiligten eine höchst unbefriedigende Situation“,
+          erklärt ein Sprecher der Bundespolizei bei einer eilig einberufenen
+          Pressekonferenz. „Da gibt sich jemand große Mühe, plant einen Anschlag
+          oder eine groß angelegte Erpressung, tippt ein langes
+          Bekennerschreiben – und dann scheitert es daran, dass unser Mailserver
+          die Nachricht <em>'BOMBE_WICHTIG_BITTE_LESEN.pdf'</em> irgendwo
+          zwischen Penisvergrößerungs-Werbung und den Mails eines nigerianischen
+          Prinzen einsortiert.“
+        </p>
+
+        <p class="mb-8">
+          Besonders dramatisch zeigte sich die digitale Überforderung der
+          Behörden zuletzt in Tirol. Bei einer Bombendrohung in Innsbruck blieb
+          die per E-Mail verschickte Warnung stundenlang unbemerkt. Der
+          mutmaßliche Täter soll laut Insidern stundenlang frustriert in einem
+          Café gegenüber dem Bahnhof gesessen und auf die Evakuierung gewartet
+          haben. „Das ist einfach respektlos gegenüber dem Handwerk des Täters“,
+          kritisiert auch die Gewerkschaft der Kriminellen (GdK). „Man sitzt da,
+          drückt auf 'Senden', freut sich auf das Blaulicht – und die Pendler
+          kaufen sich seelenruhig weiter ihre Leberkässemmeln, weil der
+          diensthabende Beamte sein Outlook-Passwort vergessen hat.“
+        </p>
+
+        <h2
+          class="text-3xl font-bold font-serif my-10 text-black leading-tight"
+        >
+          Erpresser bei dm landete in der Warteschleife
+        </h2>
+
+        <p class="mb-8">
+          Doch nicht nur die Polizei hat mit dem digitalen Posteingang zu
+          kämpfen. Auch die freie Wirtschaft ist betroffen, wie der jüngste Fall
+          von vergifteter Babynahrung zeigt. Ein Erpresser hatte gedroht,
+          präparierte Hipp-Gläschen in den Filialen der Drogeriekette dm zu
+          platzieren. Doch statt eines Koffers voller Geld im Wald erhielt der
+          Täter zunächst nur eine Auto-Reply:
+          <em
+            >„Vielen Dank für Ihre Nachricht an info@dm.at! Aufgrund eines
+            erhöhten Aufkommens kann die Beantwortung bis zu 3 Werktage dauern.
+            Haben Sie übrigens schon unsere neue Payback-Punkte-Aktion
+            gesehen?“</em
+          >
+        </p>
+
+        <p class="mb-8">
+          Dem Vernehmen nach musste der Erpresser schließlich dreimal die
+          Service-Hotline anrufen und sich durch das Menü drücken („Für
+          Produktreklamationen drücken Sie die 1. Für Millionen-Erpressungen und
+          vergifteten Babybrei drücken Sie die 2“), bis dm schließlich
+          vorsorglich die Gläser aus dem Verkauf nahm.
+        </p>
+
+        <h2
+          class="text-3xl font-bold font-serif my-10 text-black leading-tight"
+        >
+          „Zurück zur analogen Verlässlichkeit“
+        </h2>
+
+        <p class="mb-8">
+          Um derartige Kommunikationspannen künftig zu vermeiden, hat das
+          Innenministerium nun einen Leitfaden für einen „reibungslosen und
+          kundenorientierten Ablauf von Straftaten“ herausgegeben.
+        </p>
+
+        <blockquote
+          class="border-l-4 border-red-600 pl-6 py-2 my-12 italic text-2xl font-serif text-gray-700 bg-gray-50 pr-4"
+        >
+          „Wir bitten alle Gefährder und Erpresser, uns ihre Forderungen künftig
+          wieder ausgedruckt und per Einschreiben zukommen zu lassen.“
+        </blockquote>
+
+        <p class="mb-8">
+          So haben Sie die Garantie, dass Ihr Schreiben von einem Beamten
+          physisch entgegengenommen und mit einem Eingangsstempel versehen wird,
+          heißt es aus dem Ministerium.
+        </p>
+
+        <p class="mb-8">
+          Für besonders eilige Bombendrohungen, bei denen der Postweg zu lange
+          dauern würde, verweist die Polizei auf das bewährte Fax-Gerät in der
+          Einsatzzentrale. „Das Fax rattert schön laut, wenn was reinkommt. Da
+          wacht der Kollege in der Portierloge sofort auf. Das ist
+          Servicequalität, auf die man sich verlassen kann.“
+        </p>
+      </div>
+    </article>
+
+    <footer class="bg-gray-50 border-t border-gray-200 py-16">
+      <div class="max-w-2xl mx-auto px-6 text-center">
+        <h2 class="text-2xl font-black italic tracking-tighter mb-4">
+          Daily News
+        </h2>
+        <p class="text-sm text-gray-500 mb-8">
+          &copy; 2026 Alle Rechte vorbehalten. Erstellt für die Zukunft des
+          Journalismus.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const d = new Date();
+      const options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      };
+
+      document.getElementById("date").innerHTML = d.toLocaleDateString(
+        "de-DE",
+        options,
+      );
+
+      window.onscroll = function () {
+        let winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        let height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        let scrolled = (winScroll / height) * 100;
+        document.getElementById("progress-bar").style.width = scrolled + "%";
+      };
+    </script>
+  </body>
+</html>
